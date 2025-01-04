@@ -1,0 +1,11 @@
+#yaml is a markup language which is used here as a configuration file for the pre-commit package
+
+#this is a pre-commit file
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+    -   id: trailing-whitespace
+
+    -   id: check-yaml
+    -   id: check-added-large-files
